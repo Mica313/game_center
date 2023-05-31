@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header {
+    font-family: 'Staatliches', cursive;
+    font-weight:normal;
+}
+body {
+    font-family: 'Play', sans-serif;
+}
+header {
+    background-color:rgb(32, 32, 32)
+}
+header h1 {
+    color:rgb(255, 115, 34);
+}
+header nav li {
+    display:inline;
+}
+header nav li a {
+    display:inline;
+    text-decoration:none;
+    margin-left:10px;
+    margin-right:10px;
+    color:rgb(255, 115, 34);
+}
+header nav li a:hover {
+    text-decoration:underline overline;
+    border-radius: 4px solid black;
+    text-decoration-color: rgb(255, 255, 255);
+}
+.container {
+    max-width: 1280px;
+    width:100%;
+    margin:0 auto;
+}
+header .container img {
+    height:50px;
+}
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#reviews img {
+    height:450px;
+}
+.links img {
+    height:22px;
+}
+.links li {
+    display:inline;
+    margin-right:8px;
+}
+.links li a {
+    text-decoration:none;
+}
+#contact .container {
+    display:block;
+}
+#contact .contact {
+    display:flex;
+    justify-content: space-between;
+}
+#contact {
+    margin-top: 22px;
+}
+form input,
+form textarea,
+form button {
+    display:flex;
+    width:320px;
+    margin-bottom:8px;
+    padding:8px;
+}
+form textarea {
+    resize:none;
+    height:80px;
+}
+form button {
+    background-color:rgb(255, 115, 34);
+    color:black;
+    border:none;
+}
+form button:hover {
+    cursor:pointer;
+    background-color:rgb(255, 134, 63);
+}
+section h3 {
+    margin-bottom:16px;
+}
